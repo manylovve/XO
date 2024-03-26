@@ -1,4 +1,6 @@
+#размер доски
 size = 3
+#клетки для хода игрока
 board = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 def draw_board():
@@ -67,11 +69,5 @@ def start_game():
                 break
         if step == 10:
             print('Ничья')
-
-
-
-
-
-
 print('Давай играть!')
 start_game()
